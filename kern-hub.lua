@@ -193,6 +193,38 @@ Tabs.Misc:AddParagraph({
     Content = "Universal Script Hub\nVersion 1.0\nMade with Fluent UI Library"
 })
 
+-- Hubs Tab
+local HubsSection = Tabs.Hubs:AddSection("Script Hubs")
+
+Tabs.Hubs:AddButton({
+    Title = "Load Infinite Yield",
+    Description = "Universal admin commands",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+    end
+})
+
+Tabs.Hubs:AddButton({
+    Title = "Load Dex Explorer",
+    Description = "Game explorer tool",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+    end
+})
+
+Tabs.Hubs:AddButton({
+    Title = "Load Simple Spy",
+    Description = "Remote spy tool",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))()
+    end
+})
+
+Tabs.Hubs:AddParagraph({
+    Title = "About Hubs",
+    Content = "Load popular script hubs and tools\nClick any button to execute the script"
+})
+
 -- Functions
 local function UpdateCharacter()
     Character = LocalPlayer.Character
