@@ -225,6 +225,45 @@ Tabs.Hubs:AddParagraph({
     Title = "About Hubs",
     Content = "Load popular script hubs and tools\nClick any button to execute the script"
 })
+-- Game Hubs Tab
+local GameHubsSection = Tabs.GameHubs:AddSection("Game-Specific Scripts")
+
+Tabs.GameHubs:AddButton({
+    Title = "Blox Fruits Script",
+    Description = "Advanced Blox Fruits hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+    end
+})
+
+Tabs.GameHubs:AddButton({
+    Title = "Arsenal Script",
+    Description = "Arsenal aimbot & ESP",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))()
+    end
+})
+
+Tabs.GameHubs:AddButton({
+    Title = "Brookhaven Script",
+    Description = "Brookhaven RP features",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael/NewIceHub/main/Brookhaven"))()
+    end
+})
+
+Tabs.GameHubs:AddButton({
+    Title = "Adopt Me Script",
+    Description = "Adopt Me automation",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"))()
+    end
+})
+
+Tabs.GameHubs:AddParagraph({
+    Title = "About Game Hubs",
+    Content = "Game-specific scripts and hubs\nOnly works in their respective games"
+})
 
 -- Functions
 local function UpdateCharacter()
