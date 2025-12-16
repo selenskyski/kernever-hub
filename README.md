@@ -1,3 +1,5 @@
 # kernever-script-hub
 
-https://raw.githubusercontent.com/selenskyski/kernever-script-hub/refs/heads/main/kern-hub.lua
+```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/selenskyski/kernever-script-hub/refs/heads/main/kern-hub.lua"))()
+```
