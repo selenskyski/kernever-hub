@@ -45,7 +45,8 @@ local Tabs = {
     Player = Window:AddTab({ Title = "Player", Icon = "user" }),
     Visual = Window:AddTab({ Title = "Visual", Icon = "eye" }),
     Misc = Window:AddTab({ Title = "Misc", Icon = "settings" }),
-    Hubs = Window:AddTab({ Title = "Hubs", Icon = "grid" })
+    Hubs = Window:AddTab({ Title = "Hubs", Icon = "grid" }),
+    game hubs = Window:AddTab({ Title = " game Hubs", Icon = "gamepad" })
 }
 
 -- Main Tab
