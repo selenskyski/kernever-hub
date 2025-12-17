@@ -18,7 +18,8 @@
 
 ##  Credits
 
-UI Library:[fluent UI](https://forgenet.gitbook.io/fluent-documentation)
+UI Library: [fluent UI](https://forgenet.gitbook.io/fluent-documentation)
+team: kern dev team + me ofc 
 
 # kernever-hub!
 a Roblox script dedicated to success my other script **Nexus hub** more update will be coming!
