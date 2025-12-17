@@ -102,7 +102,7 @@ local CornSound = nil
 
 Tabs.Main:AddButton({
     Title = "🌽 Corn Rain",
-    Description = "Make it rain corn with Gymnopédie No. 1",
+    Description = "Make it rain corn with music",
     Callback = function()
         if CornRainActive then
             Fluent:Notify({
@@ -123,7 +123,7 @@ Tabs.Main:AddButton({
         
         -- Create and play Gymnopédie No. 1
         CornSound = Instance.new("Sound")
-        CornSound.SoundId = "rbxassetid://1838635082" -- Gymnopédie No. 1
+        CornSound.SoundId = "rbxassetid://9043887091" -- Gymnopédie No. 1
         CornSound.Volume = 0.5
         CornSound.Looped = false
         CornSound.Parent = workspace
