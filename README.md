@@ -35,6 +35,7 @@ a Roblox script dedicated to success my other script **Nexus hub** more update w
 - **admin tools (infinite yield and more to come!)**
 - **game hubs specified for other games (use responsibly and in games where it's allowed)**
 - **report / suggestion system**
+- **corn rain** don't launch like at all it dont work rn
 ---
 # lua 
 
