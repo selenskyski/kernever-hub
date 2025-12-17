@@ -1,4 +1,4 @@
-# kernever-hub
+# kernever-hub 🌽
 
 > [!IMPORTANT]
 > join our discord for future updates https://discord.gg/KwExw3Me5W
@@ -15,6 +15,28 @@
 
 ---
 
+##  Credits
+
+UI Library:[fluent UI](https://forgenet.gitbook.io/fluent-documentation)
+
+# kernever-hub!
+a Roblox script dedicated to success my other script **Nexus hub** more update will be coming!
+
+> [!TIP]
+> Always use responsibly and only in environments where it's allowed.
+---
+##  Features
+- **fly**
+- **speed modification**
+- **jump modification**
+- **dex explorer, tools etc.**
+- **admin tools (infinite yield and more to come!)**
+- **game hubs specified for other games (use responsibly and in games where it's allowed)**
+- **report / suggestion system**
+---
+# lua 
+
 ```
 loadstring(game:HttpGet("https://raw.githubusercontent.com/selenskyski/kernever-hub/refs/heads/main/kern-hub.lua"))()
 ```
+---
