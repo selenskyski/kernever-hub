@@ -28,7 +28,7 @@ local ScriptState = {
     FlySpeed = 50
 }
 
--- Discord Webhook URL (Replace with your webhook)
+-- Discord Webhook URL (btw if you are thinking of doing something with this, it's not worth it)
 local WebhookURL = "https://discord.com/api/webhooks/1450637274046796006/cJYhGcFWx8aEoNfG3AIm_0lgtCvr8iC-BhfJki6Lkfb1EtH81rq2d1I0At6mAkVF4gnW"
 
 -- Create Window
